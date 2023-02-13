@@ -12,7 +12,7 @@
 
   /* container */
   .container {
-    @apply w-11/12 m-auto;
+    @apply w-11/12 mx-auto;
   }
 
   /* Scroll */
@@ -63,7 +63,7 @@
 
   /* Icon Stles */
   .icon-style {
-    @apply h-6 w-6 sm:h-5 sm:w-5 text-slate-100 cursor-pointer transition-all duration-100 active:scale-110 leading-tight;
+    @apply h-6 w-6 sm:h-5 sm:w-5 text-slate-100 cursor-pointer transition-all duration-100 active:scale-125 leading-tight;
   }
 
   /* text-gradient */
@@ -78,11 +78,11 @@
 
   /* button */
   .button-theme {
-    @apply px-7 py-1 rounded active:scale-90 transition-all duration-100 ease-in-out shadow-md sm:text-sm;
+    @apply px-7 py-1 rounded active:scale-75 transition-all duration-100 ease-in-out shadow-md sm:text-sm;
   }
 
   /* tranistions-theme */
   .transitions-theme {
-    @apply transition-all duration-700 ease-in-out cursor-pointer;
+    @apply transition-all duration-300 ease-in-out cursor-pointer;
   }
 }

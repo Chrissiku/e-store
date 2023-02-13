@@ -1,3 +1,12 @@
-export default function App() {
-  return <h1 className="">Welcome to my e-store project</h1>;
-}
+import { Hero } from "./components";
+import { heroApi } from "./data/data";
+
+const App = () => {
+  return (
+    <main>
+      <Hero heroapi={heroApi} />
+    </main>
+  );
+};
+
+export default App;
